@@ -9,6 +9,6 @@
  - -d: 백그라운드 모드로 실행(detached)
  - --name hello-world: 컨테이너 이름지정
  - -p 80:80: 호스트 - 컨테이너 간 포트 바인딩 
- - -v /opt/example:/example \: 호스트 - 컨테이너 간 볼륨 바인딩
- - fastcampus/hello-world:lastest \: 실행할 이미지
+ - -v /opt/example:/example \ : 호스트 - 컨테이너 간 볼륨 바인딩
+ - fastcampus/hello-world:lastest \ : 실행할 이미지
  - my-command: 컨테이너 내에서 실행할 
