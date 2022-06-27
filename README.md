@@ -27,4 +27,17 @@
   - 도커 컨테이너가 실행할 때 수행할 명령어 혹은 엔트리포인트에 지정된 명령어에 대한 인자 값 
  
  
+ 3.Expose & Publish
+ 
+  **#Expose**
+  
+   - expose 옵션은 그저 문서화용도 
+   - docker run -d --expose 80 nginx 
+  
+  **#publish**
+  
+   - publish 옵션은 실제 포트를 바인딩
+   - docker run -d -p 80 nginx
+
+ 
  
