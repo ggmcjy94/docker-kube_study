@@ -12,3 +12,4 @@
  - -v /opt/example:/example \ : 호스트 - 컨테이너 간 볼륨 바인딩
  - fastcampus/hello-world:lastest \ : 실행할 이미지
  - my-command: 컨테이너 내에서 실행할 
+ - docker inspect [id] : 네트워크에 문제 생길시 많이 이용 네트워크 확인 명령어 
